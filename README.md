@@ -1,19 +1,12 @@
-<p align="center">
-<img src="https://user-images.githubusercontent.com/11247099/140462375-7b7ac4db-35b7-453c-8a05-13d8d20282c4.png" width="600"/>
-</p>
+## 备注
 
-<h2 align="center">
-<a href="https://github.com/antfu/vitesse">Vitesse</a> for Nuxt 3
-</h2><br>
+- 默认使用 `pnpm` 作为包管理工具，如果你没有安装 pnpm，可以先安装 pnpm。
+- gitee仓库地址：https://gitee.com/njy_3/health-website.git
+- 旧项目gitee仓库地址：https://gitee.com/njy_3/healthwebsitefont.git
+- 旧项目线上地址：[陕西健康科普资源库](https://www.bxjkw.cn/#/peopleHealth/peopleHealthList)
+- 墨刀地址：[陕西健康科普资源库-modao](https://ai100x.modao.cc/proto/djUP4cpZsfs521VJevzS5/sharing?view_mode=read_only)
 
-<p align="center">
-<br>
-<a href="https://vitesse-nuxt3.netlify.app/">🖥 Online Preview</a>
-<br><br>
-<a href="https://stackblitz.com/github/antfu/vitesse-nuxt"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
-</p>
-
-## Features
+## 特性
 
 - 💚 [Nuxt 3](https://nuxt.com/) - SSR, ESR, File-based routing, components auto importing, modules, etc.
 
@@ -37,8 +30,6 @@
 
 - 📲 [PWA](https://github.com/vite-pwa/nuxt) with offline support and auto-update behavior.
 
-## Plugins
-
 ### Nuxt Modules
 
 - [VueUse](https://github.com/vueuse/vueuse) - collection of useful composition APIs.
@@ -47,34 +38,15 @@
 - [Pinia](https://github.com/vuejs/pinia) - intuitive, type safe, light and flexible Store for Vue.
 - [VitePWA](https://github.com/vite-pwa/nuxt) - zero-config PWA Plugin for Nuxt 3.
 - [DevTools](https://github.com/nuxt/devtools) - unleash Nuxt Developer Experience.
+- [dayjs](https://github.com/iamkun/dayjs) - Fast 2kB alternative to `Moment.js`.
 
-## IDE
+## 开发环境
 
 We recommend using [VS Code](https://code.visualstudio.com/) with [Volar](https://github.com/johnsoncodehk/volar) to get the best experience (You might want to disable [Vetur](https://vuejs.github.io/vetur/) if you have it).
 
-## Variations
-
-- [vitesse](https://github.com/antfu/vitesse) - Opinionated Vite Starter Template
-- [vitesse-lite](https://github.com/antfu/vitesse-lite) - Lightweight version of Vitesse
-- [vitesse-nuxt-bridge](https://github.com/antfu/vitesse-nuxt-bridge) - Vitesse for Nuxt 2 with Bridge
-- [vitesse-webext](https://github.com/antfu/vitesse-webext) - WebExtension Vite starter template
-
-## Try it now!
-
-### Online
-
-<a href="https://stackblitz.com/github/antfu/vitesse-nuxt"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
-
-### GitHub Template
-
-[Create a repo from this template on GitHub](https://github.com/antfu/vitesse-nuxt/generate).
-
-### Clone to local
-
-If you prefer to do it manually with the cleaner git history
+## 运行
 
 ```bash
-npx degit antfu/vitesse-nuxt my-nuxt-app
-cd my-nuxt-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
+pnpm run dev
 ```
