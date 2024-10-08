@@ -2,11 +2,11 @@
 
 - 默认使用 `pnpm` 作为包管理工具，如果你没有安装 pnpm，需要先安装 pnpm。
 
-- gitee仓库地址：https://gitee.com/njy_3/health-website.git
+- gitee仓库地址：[health-website](https://gitee.com/njy_3/health-website.git)
 
-- 墨刀地址：[陕西健康科普资源库-modao](https://ai100x.modao.cc/proto/djUP4cpZsfs521VJevzS5/sharing?view_mode=read_only)
+- 墨刀地址：[陕西健康科普资源库-modao](https://ai100x.modao.cc/proto/djUP4cpZsfs521VJevzS5/sharing?view_mode=read_only) (首页ui采用版本2设计)
 
-- 旧项目gitee仓库地址：https://gitee.com/njy_3/healthwebsitefont.git
+- 旧项目gitee仓库地址：[health_website_front](https://gitee.com/njy_3/healthwebsitefont.git)
 
 - 旧项目线上地址：[陕西健康科普资源库](https://www.bxjkw.cn/#/peopleHealth/peopleHealthList)
 
