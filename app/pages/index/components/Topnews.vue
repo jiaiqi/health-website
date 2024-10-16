@@ -2,17 +2,18 @@
 
 </script>
 <template>
-    <div class="h-200 bg-[url('/img/topNews.png')]">
+    <div class="h-190 bg-[url('/img/topNews.png')]">
         <div class="flex justify-center items-end pt-30px">
             <span class="w-8px h-8px bg-#0E9472 inline-block mr-10px -mt-15px"></span>
             <span class="px-2 font-bold" text="#1D2128 22px">头条资讯</span>
             <span class="w-8px h-8px bg-#0E9472 inline-block ml-10px -mt-15px"></span>
         </div>
-        <div class=" flex justify-center font-black font-serif -mt-15px" text="#031D2822 26px">
+        <div class=" flex justify-center font-black font-serif -mt-10px" text="#031D2822 26px">
             INFORMATION
         </div>
 
-        <div class="py-6 px-80 h-75%">
+        <div class="py-6 px-80 h-78%">
+            
             <div class="w-100% h-100% flex justify-between">
                 <div class="bg-white h-100% w-49%">
                     <div class="p-10px h-100%">
@@ -65,7 +66,7 @@
                 </div>
             </div>
             <div>
-                2
+                <div class="font-medium py-5px w-140px my-30px text-center cursor-pointer" text=" #35B389" border="1px solid #35B389 rounded-4px">查看更多</div>
             </div>
         </div>
     </div>
