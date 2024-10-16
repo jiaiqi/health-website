@@ -32,11 +32,13 @@ const navList = [
   },
   {
     name: '中医健康科普',
-    path: '/peopleHealth/tcmKnowledge',
+    path: 'https://saas.100xsys.cn/health/pages/knowledge/knowledge',
+    external: true,
   },
   {
     name: '健康评测',
-    path: '/peopleHealth/evaluation',
+    path: 'https://saas.100xsys.cn/health/pages/evaluation/evaluation',
+    external: true,
   },
 ]
 
@@ -66,6 +68,8 @@ function isActive(item: any) {
       <nav :class="{ active: menuHamburgerActive }" class="menu-box h0 items-center justify-between p-x-10px md:h-unset md:flex">
         <NuxtLink
           v-for="nav in navList" :key="nav.name" :to="nav.path"
+          :external="nav.external || false"
+          :target="nav.external ? '_blank' : ''"
           class="nav-item pos-relative mx-10px px-10px"
           :class="{ active: isActive(nav) }"
         >
